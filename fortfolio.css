@@ -107,6 +107,7 @@ main {
 .section {
     background: #FFF8F3;
     border-radius: 5px;
+    text-align: center;
     padding: 130px 150px;
     margin-top: 130px;
     margin-bottom: 130px;
@@ -117,10 +118,9 @@ main {
 }
 
 .about_me {
-    text-align: center;
     font-size: 40px;
     margin-bottom: 20px;
-    margin-top: 131px;
+    margin-top: 50px;
 
 
 }
@@ -133,4 +133,26 @@ main {
 
     font-size: 18px;
     fo
+}
+
+/* about er nijer imformation set kora */
+.about_info {
+    justify-content: space-around;
+    margin-top:20px;
+    display: flex;
+}
+
+
+
+.about_info_first {
+    font-weight: 400;
+    font-size: 20px;}
+.about_info_details:hover .about_info_first{
+    text-shadow: 1px 1px 2px #fd6e0a;
+    
+}
+
+.about_info_second {
+    font-weight: 700;
+    font-size: 20px;
 }
